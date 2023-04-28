@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = DessertViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List(viewModel.dessertList) { dessert in
+                NavigationLink(destination: DessertDetailView(dessert: dessert)) {
+                    Text(dessert.strMeal)
+                }
+            }
+            .navigationTitle("Dessert Recipes")
+            .onAppear {
+                viewModel.fetchDessertList()
+            }
         }
-        .padding()
     }
 }
 

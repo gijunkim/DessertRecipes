@@ -14,6 +14,9 @@
 		0EE51A7B29FC604F00BD1238 /* DessertRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE51A7A29FC604F00BD1238 /* DessertRecipesTests.swift */; };
 		0EE51A8529FC605000BD1238 /* DessertRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE51A8429FC605000BD1238 /* DessertRecipesUITests.swift */; };
 		0EE51A8729FC605000BD1238 /* DessertRecipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE51A8629FC605000BD1238 /* DessertRecipesUITestsLaunchTests.swift */; };
+		0EE51A9429FC60F600BD1238 /* Dessert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE51A9329FC60F600BD1238 /* Dessert.swift */; };
+		0EE51A9829FC61C000BD1238 /* DessertDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE51A9729FC61C000BD1238 /* DessertDetailView.swift */; };
+		0EE51A9A29FC67C600BD1238 /* DessertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE51A9929FC67C600BD1238 /* DessertViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0EE51A8029FC605000BD1238 /* DessertRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE51A8429FC605000BD1238 /* DessertRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRecipesUITests.swift; sourceTree = "<group>"; };
 		0EE51A8629FC605000BD1238 /* DessertRecipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertRecipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EE51A9329FC60F600BD1238 /* Dessert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dessert.swift; sourceTree = "<group>"; };
+		0EE51A9729FC61C000BD1238 /* DessertDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertDetailView.swift; sourceTree = "<group>"; };
+		0EE51A9929FC67C600BD1238 /* DessertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DessertViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				0EE51A6929FC604E00BD1238 /* DessertRecipesApp.swift */,
 				0EE51A6B29FC604E00BD1238 /* ContentView.swift */,
 				0EE51A6D29FC604F00BD1238 /* Assets.xcassets */,
+				0EE51A9329FC60F600BD1238 /* Dessert.swift */,
+				0EE51A9729FC61C000BD1238 /* DessertDetailView.swift */,
+				0EE51A9929FC67C600BD1238 /* DessertViewModel.swift */,
 				0EE51A6F29FC604F00BD1238 /* Preview Content */,
 			);
 			path = DessertRecipes;
@@ -258,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EE51A6C29FC604E00BD1238 /* ContentView.swift in Sources */,
+				0EE51A9A29FC67C600BD1238 /* DessertViewModel.swift in Sources */,
+				0EE51A9429FC60F600BD1238 /* Dessert.swift in Sources */,
+				0EE51A9829FC61C000BD1238 /* DessertDetailView.swift in Sources */,
 				0EE51A6A29FC604E00BD1238 /* DessertRecipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
